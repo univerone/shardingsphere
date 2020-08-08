@@ -1,5 +1,5 @@
 +++
-pre = "<b>2. </b>"
+pre = "<b>2.</b>"
 title = "快速入门"
 weight = 2
 chapter = true

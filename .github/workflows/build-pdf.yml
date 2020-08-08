@@ -19,7 +19,9 @@ jobs:
       with:
         python-version: '3.7'
     - name: generate PDF
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        bash .github/scripts/generate-pdf.sh 
+        bash .github/scripts/generate-pdf.sh
         
         
